@@ -1,0 +1,197 @@
+header {
+  background-image: url(../assets/header-bg.jpg);
+  a {
+    z-index: 9999;
+    text-decoration: none;
+  }
+  .search {
+    padding: 12px 40px;
+    background-color: $primaryColor;
+    display: inline;
+    border-radius: 10px;
+    z-index: 999;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: -20px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      background-color: darken($primaryColor, 5%);
+    }
+  }
+}
+
+.nav {
+  background-color: $bgWhite;
+  box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 160px;
+  position: relative;
+  z-index: 999;
+}
+
+.nav-tabs .nav-link {
+  padding: 7px 40px;
+  border: none;
+  color: $secondaryColor;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 3px solid $primaryColor;
+  i {
+    color: $primaryColor;
+  }
+}
+.booking-container {
+  width: 70%;
+  padding-top: 80px;
+  position: relative;
+}
+
+.tab-content-wrapper {
+  margin-top: -30px;
+}
+.tab-content {
+  border-radius: 15px;
+  background-color: #fff;
+  width: 100%;
+  padding: 0 22px;
+  -webkit-box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.2);
+}
+
+// functional div
+.bookingWrapper {
+  position: relative;
+  cursor: pointer;
+}
+#bookingRooms {
+  background-color: $bgWhite;
+  width: 355px;
+  z-index: 9999;
+  border-radius: 5px;
+  right: 0;
+  box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.2);
+  top: 292px;
+  position: absolute;
+  padding: 10px;
+  display: none;
+  h5 {
+    font-size: 14px;
+    color: $secondaryColor;
+    font-family: $fontSecondary;
+  }
+
+  p {
+    font-size: 14px;
+    color: $lightBlue;
+    font-family: $fontSecondary;
+  }
+
+  span {
+    padding: 0 20px;
+    font-size: 16px;
+  }
+
+  hr {
+    color: lighten($ash, 4%);
+  }
+
+  i {
+    font-size: 15px;
+    color: $secondaryColor;
+  }
+
+  .room-btn {
+    padding: 6px 14px;
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+  }
+  .done-btn {
+    background-color: #fccd03;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.booking-section {
+  padding: 100px 0;
+}
+
+// navbar brand
+nav {
+  background-color: transparent;
+  margin: 0 auto -100px;
+
+  .menu {
+    height: 80px;
+
+    #nav-bar-menu {
+      margin-right: 82px;
+      div {
+        font-size: 18px;
+        padding: 0 35px;
+        font-weight: 700;
+        line-height: 72px;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+    color: $secondaryColor;
+  }
+}
+
+.sign-in {
+  padding: 10px 40px;
+  background-color: $primaryColor;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: inline;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+select {
+  appearance: none;
+  border: none;
+  outline: none;
+}
+
+.nav-colored {
+  background-color: $bgWhite;
+  transition: all 0.5s;
+}
+.nav-transparent {
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.nav-bar-menu {
+  display: none !important;
+  transition: all 0.5s;
+}
+
+#logo-color {
+  display: none;
+}
+
+.location {
+  padding: 10px 0 10px 0;
+}

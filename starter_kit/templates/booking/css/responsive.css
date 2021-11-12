@@ -1,0 +1,319 @@
+@media (max-width: 480px) {
+  .main-content {
+    width: 100%;
+    height: auto;
+    padding: 20px 5px;
+  }
+
+  /* Other Person */
+  .left-one {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0px auto;
+  }
+
+  .middle-two {
+    width: 50% !important;
+    height: auto !important;
+    float: left;
+    margin-top: 15px !important;
+  }
+  .right-three {
+    width: 50% !important;
+    height: auto !important;
+    float: left;
+  }
+  .price-section-nav .rating-price {
+    text-decoration: none;
+    color: #006bb8;
+    padding: 0px 0px;
+  }
+
+  .price-section-nav ul li {
+    border-right: 1px solid #006bb8;
+    padding: 0px 10px;
+  }
+  /* Other Person */
+
+  #h3-tag-mobile-responsive {
+    font-size: 10px !important;
+    font-weight: 700 !important;
+  }
+
+  #cart-padding-test {
+    padding: 0px !important;
+  }
+
+  #checkout-paddding-r {
+    padding: 10px 7px 8px 7px !important;
+  }
+  #suit-h3-tag {
+    font-size: 15px !important;
+  }
+  #srarch-button-off {
+    display: none !important;
+  }
+  #mobile-responsive {
+    width: 100% !important;
+  }
+
+  #mobile-responsive-right {
+    width: 100% !important;
+    padding-left: 20px;
+  }
+
+  #right-side-content-main {
+    width: 100% !important;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+
+  #left-side-content-main {
+    display: none;
+  }
+  #card-option-left {
+    width: 100% !important;
+  }
+  #card-option-right {
+    display: none;
+  }
+  #change-search-id {
+    padding: 0px !important;
+  }
+
+  #change-search-id span {
+    display: none;
+  }
+  #price-you-beat-left {
+    margin-top: 13px;
+  }
+
+  #price-you-beat-right {
+    margin-top: 13px;
+  }
+  .facilities-row-all h3 {
+    font-size: 14px !important;
+    color: #333 !important;
+    font-weight: 600 !important;
+  }
+
+  .facilities-row-all p {
+    font-size: 13px !important;
+    color: #333 !important;
+    font-weight: 300 !important;
+  }
+
+  .facilities-row-all p span {
+    font-size: 12px !important;
+  }
+  #fac-left-column-out {
+    padding-right: 6px !important;
+  }
+
+  #fac-middle-column-out {
+    padding-left: 6px !important;
+  }
+
+  #fac-right-column-out {
+    padding-left: 6px !important;
+  }
+
+  #full-div-percent {
+    width: 100%;
+  }
+  #full-div-percent {
+    width: 100% !important;
+  }
+
+  #full-div-percent-second {
+    width: 100% !important;
+  }
+
+  #full-div-percent-date {
+    width: 103% !important;
+  }
+
+  .full-div-percent-date-two {
+    width: 49% !important;
+  }
+
+  .asked-question-btn {
+    padding: 2px !important;
+    font-size: 13px !important;
+  }
+
+  #asked-question-div-left {
+    width: 32% !important;
+  }
+
+  #asked-question-div-right {
+    width: 68% !important;
+    margin-left: 6px !important;
+  }
+
+  .dispaly-phone-none {
+    display: none;
+  }
+
+  #breakfast-info {
+    width: 100%;
+    height: 165px !important;
+    background-color: #ebf3ff;
+    padding: 6px !important;
+    border-radius: 3px;
+  }
+  .btn-primary {
+    padding: 2px 4px !important;
+  }
+  .images-main-div .images-sub1 {
+    height: 194px !important;
+  }
+
+  .images-sub2 {
+    height: 194px !important;
+  }
+
+  .images-sub3 {
+    height: 64px !important;
+  }
+
+  .images-sub3-five h4 {
+    font-size: 14px !important;
+    margin-top: 9px !important;
+  }
+
+  #none-dispay-reserveoff {
+    display: none !important;
+  }
+
+  #like_id {
+    margin-top: 10px !important;
+  }
+
+  #position-one-display {
+    right: -33px !important;
+  }
+
+  #position-two-display {
+    left: -27px !important;
+  }
+
+  .parent-column {
+    flex-direction: column-reverse !important;
+  }
+  .mobile-and-tab-res-img img {
+    float: left !important;
+  }
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .main-content {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+  }
+
+  /* Other Person */
+  .left-one {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0px auto;
+  }
+
+  .middle-two {
+    width: 50% !important;
+    height: auto !important;
+    float: left;
+    margin-top: 15px !important;
+  }
+  .right-three {
+    width: 50% !important;
+    height: auto !important;
+    float: left;
+  }
+
+  .price-section-nav .rating-price {
+    text-decoration: none;
+    color: #006bb8;
+    padding: 10px 2px;
+    box-sizing: border-box;
+    margin-left: 0px;
+  }
+
+  .price-section-nav ul li {
+    border-right: 1px solid #006bb8;
+    padding: 8px 0px;
+  }
+  /* Other Person */
+  .mobile-and-tab-res-img img {
+    float: left !important;
+  }
+
+  .parent-column {
+    flex-direction: column-reverse !important;
+  }
+
+  #mobile-responsive-right {
+    width: 50% !important;
+  }
+
+  #checkout-paddding-r {
+    padding: 10px 60px !important;
+  }
+  #srarch-edit-off {
+    display: none !important;
+  }
+
+  .tabmoood-flex {
+    width: 25%;
+    height: 100%;
+    padding: 40px 0px !important;
+  }
+
+  .full-div-percent-date-two {
+    width: 50% !important;
+  }
+  #full-div-percent-date {
+    width: 105% !important;
+  }
+
+  #last-date-id {
+    left: 0px !important;
+  }
+
+  #position-one-display {
+    right: -33px !important;
+  }
+
+  #position-two-display {
+    left: -27px !important;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 992px) {
+  #card-option-right-full {
+    display: none;
+  }
+  #srarch-edit-off {
+    display: none !important;
+  }
+}
+
+@media all and (min-width: 993px) and (max-width: 1200px) {
+  #card-option-right-full {
+    display: none;
+  }
+  #srarch-edit-off {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1201px) {
+  #card-option-right-full {
+    display: none;
+  }
+  #srarch-edit-off {
+    display: none !important;
+  }
+}

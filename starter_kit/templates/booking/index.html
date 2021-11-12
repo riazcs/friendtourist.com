@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <title>Main Page</title>
+  </head>
+
+  <body>
+    <!-- nav start -->
+    <nav style="background-color: aliceblue">
+      <div
+        class="menu container d-flex align-items-center justify-content-between"
+      >
+        <a href="">
+          <img src="../assets/logo-text.png" width="auto" height="40" alt="" />
+        </a>
+        <ul class="d-flex align-items-center">
+          <li><i class="far fa-building me-2"></i><a href="#">Hotel</a></li>
+          <li><i class="fas fa-road me-2"></i><a href="#">Tour</a></li>
+        </ul>
+        <div class="sign-in">
+          <p>Sign In</p>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <div class="main-content">
+      <section>
+        <div style="width: 100%; height: auto" class="menu-div">
+          <ul style="list-style: none" class="d-flex justify-content-start">
+            <li style="margin-left: 0px !important">
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <span><i class="fas fa-angle-right"></i></span>
+            </li>
+            <li>
+              <a href="#">Bangladesh</a>
+            </li>
+            <li>
+              <span><i class="fas fa-angle-right"></i></span>
+            </li>
+            <li>
+              <a href="#">Cox's Bazar</a>
+            </li>
+            <li>
+              <span><i class="fas fa-angle-right"></i></span>
+            </li>
+            <li>
+              <a style="text-decoration: none; color: #000" href="#"
+                >Laguna Beach Hotel & Resort (Hotel), Cox's Bazar (Bangladesh)
+                Deals</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="row">
+          <!-- START | Left Side DIV -->
+          <div class="col-md-3 col-sm-12">
+            <div
+              style="
+                width: 100%;
+                margin-top: 9px;
+                height: auto;
+                background-color: #febb02;
+                padding: 10px;
+                border-radius: 4px;
+              "
+              class="left-content-two"
+            >
+              <form>
+                <!-- Input Fild -->
+                <div class="form-group">
+                  <label for="Description">Destination/property name:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="Description"
+                    aria-describedby="emailHelp"
+                    placeholder="Searcch"
+                  />
+                </div>
+
+                <!-- Input Fild -->
+                <div class="form-group">
+                  <label for="Location">Check-in date</label>
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="Location"
+                    aria-describedby="emailHelp"
+                    placeholder="E.g. Japan, Boston, Europe"
+                  />
+                </div>
+
+                <!-- Input Fild -->
+                <div class="form-group">
+                  <label for="Industry">Check-out date</label>
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="Industry"
+                    aria-describedby="emailHelp"
+                    placeholder="E.g. Saas, Cloud, Android"
+                  />
+                </div>
+
+                <!-- Input Fild -->
+                <div class="form-group">
+                  <label for="">1-Week stay</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="Industry"
+                    aria-describedby=""
+                    placeholder="2 Adult"
+                  />
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <!-- Input Fild -->
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="Industry"
+                        aria-describedby=""
+                        placeholder="No Child"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <!-- Input Fild -->
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="Industry"
+                        aria-describedby=""
+                        placeholder="1 Room"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <ul
+                    style="list-style: none; padding: 0px"
+                    class="d-flex justify-content-between"
+                  >
+                    <li>
+                      <input type="checkbox" />
+                      <span style="font-size: 12px !important">
+                        I'm traveling for work
+                      </span>
+                    </li>
+
+                    <li>
+                      <span style="font-size: 14px; font-weight: 300"
+                        ><i class="far fa-question-circle"></i
+                      ></span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="form-group pt-2 pb-2">
+                  <button class="btn btn-primary btn-block">Submit</button>
+                </div>
+              </form>
+            </div>
+
+            <div
+              class=""
+              title="Check Location"
+              style="width: 100%; height: auto; margin-top: 15px"
+            >
+              <div class="card bg-light">
+                <div class="card-header">
+                  <h5>Filter by:</h5>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title">Your budget (per night)</h6>
+
+                  <span><small>Set your own budget</small></span>
+
+                  <ul style="list-style: none; padding: 0px">
+                    <li>
+                      <div
+                        class="form-check form-check-inline"
+                        style="padding-top: 10px"
+                      >
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox1"
+                          value="option1"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox1"
+                          ><small>BDT 0 - BDT 245</small></label
+                        >
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox1"
+                          value="option1"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox1"
+                          ><small>BDT 245 - BDT 490</small></label
+                        >
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox1"
+                          value="option1"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox1"
+                          ><small>BDT 490 - BDT 735</small></label
+                        >
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox1"
+                          value="option1"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox1"
+                          ><small>BDT 735 - BDT 980</small></label
+                        >
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="inlineCheckbox1"
+                          value="option1"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox1"
+                          ><small>BDT 980+</small></label
+                        >
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END | Left Side DIV -->
+
+          <!-- START | Right Side DIV -->
+          <div class="col-md-9 col-sm-12">
+            <div class="row">
+              <div class="col-md-12 d-flex justify-content-between">
+                <h4><b>Dhaka: 1,449 properties found</b></h4>
+                <div>
+                  <a
+                    class="btn btn-primary btn-sm"
+                    style="color: white; border-color: #006bb8; float: right"
+                    href="#"
+                    >Show on map</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 price-section-nav justify-content-center">
+                <ul
+                  style="list-style: none; max-width: 580px; border-radius: 3px"
+                  class="d-flex justify-content-center"
+                >
+                  <li>
+                    <a class="rating-price" href="#">Our Top Piks</a>
+                  </li>
+
+                  <li>
+                    <a class="rating-price" href="#">Lowest Price First</a>
+                  </li>
+
+                  <li>
+                    <a class="rating-price" href="#">Star Rating and Price</a>
+                  </li>
+
+                  <li style="border-right-color: transparent !important">
+                    <a class="rating-price" href="#">Top Reviewed</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div
+                  style="
+                    border: 1px solid rgba(0, 0, 0, 0.15);
+                    padding: 14px;
+                    border-radius: 3px;
+                    width: 100%;
+                    height: 100% !important;
+                  "
+                  class="hover-effects"
+                >
+                  <div class="custom-deatils">
+                    <div class="left-one">
+                      <img
+                        src="photo/gallery_image7.jpeg"
+                        style="width: 100%; height: auto"
+                        class="img-thumbnail"
+                      />
+                    </div>
+                    <div class="middle-two">
+                      <div class="card-body p-0">
+                        <h5 style="margin-bottom: 0px" class="card-title">
+                          Maritime Suites
+                          <span style="color: gold"
+                            ><i class="fas fa-star fa-xs" aria-hidden="true"></i
+                            ><i
+                              class="fas fa-star fa-xs fa-xs"
+                              aria-hidden="true"
+                            ></i
+                            ><i class="fas fa-star fa-xs" aria-hidden="true"></i
+                            ><i class="fas fa-star fa-xs" aria-hidden="true"></i
+                          ></span>
+                        </h5>
+                        <p class="card-text">George Town | Show on Map</p>
+
+                        <button type="button" class="btn btn-success btn-sm">
+                          Limited-time Deal
+                        </button>
+
+                        <p style="margin-bottom: 0px" class="card-text">
+                          One-Bedroom Apartment
+                        </p>
+                        <p
+                          style="margin-bottom: 0px; line-height: 15px"
+                          class="card-text"
+                        >
+                          <small class="text-muted"
+                            >Entire apartment&shy; •&shy; 1 bedroom •&shy; 1
+                            living room •&shy; 1 bathroom</small
+                          >
+                        </p>
+
+                        <p class="card-text"></p>
+                        <h6 style="margin-bottom: 0px; color: #00ac23">
+                          FREE cancellation • No prepayment needed
+                        </h6>
+                        <p></p>
+                        <p
+                          style="margin-bottom: 0px; line-height: 13px"
+                          class="card-text"
+                        >
+                          <small class="" style="color: #00ac23"
+                            >You can cancel later, so lock in this great price
+                            today!</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="right-three ml-auto">
+                      <div class="row">
+                        <div class="col-md-9">
+                          <h6 class="text-right">
+                            Very good<br /><small>923 reviews</small>
+                          </h6>
+                        </div>
+
+                        <div class="col-md-3">
+                          <div
+                            style="
+                              width: 37px;
+                              height: 37px;
+                              padding: 5px;
+                              border-top-left-radius: 9px;
+                              border-top-right-radius: 9px;
+                              border-bottom-right-radius: 9px;
+                              background-color: #003580;
+                              float: right;
+                            "
+                          >
+                            <span
+                              style="
+                                color: #fff;
+                                font-size: 16px;
+                                padding: 1px;
+                                font-weight: 600;
+                              "
+                              >8.4</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p
+                          class="text-right"
+                          style="color: blue; padding: 7px; padding-bottom: 0px"
+                        >
+                          Comfort 8.4
+                        </p>
+                      </div>
+
+                      <div class="row ml-auto">
+                        <div class="col-md-12 justify-content-end">
+                          <div
+                            style="
+                              float: right;
+                              padding-left: 84px;
+                              text-align: right !important;
+                            "
+                          >
+                            <p class=""><small>1week, 2 adults</small></p>
+                            <h5 class="">BDT 898</h5>
+                            <small>Includes taxes and fees</small>
+                            <a
+                              href="details_page.html"
+                              class="btn btn-primary btn-sm mt-2"
+                              >See Availability</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div
+                  style="
+                    border: 1px solid rgba(0, 0, 0, 0.15);
+                    padding: 14px;
+                    border-radius: 3px;
+                    width: 100%;
+                    height: 100% !important;
+                  "
+                  class="hover-effects"
+                >
+                  <div class="custom-deatils">
+                    <div class="left-one">
+                      <img
+                        src="photo/gallery_image7.jpeg"
+                        style="width: 100%; height: auto"
+                        class="img-thumbnail"
+                      />
+                    </div>
+                    <div class="middle-two">
+                      <div class="card-body p-0">
+                        <h5 style="margin-bottom: 0px" class="card-title">
+                          Maritime Suites
+                          <span style="color: gold"
+                            ><i class="fas fa-star fa-xs" aria-hidden="true"></i
+                            ><i
+                              class="fas fa-star fa-xs fa-xs"
+                              aria-hidden="true"
+                            ></i
+                            ><i class="fas fa-star fa-xs" aria-hidden="true"></i
+                            ><i class="fas fa-star fa-xs" aria-hidden="true"></i
+                          ></span>
+                        </h5>
+                        <p class="card-text">George Town | Show on Map</p>
+
+                        <button type="button" class="btn btn-success btn-sm">
+                          Limited-time Deal
+                        </button>
+
+                        <p style="margin-bottom: 0px" class="card-text">
+                          One-Bedroom Apartment
+                        </p>
+                        <p
+                          style="margin-bottom: 0px; line-height: 15px"
+                          class="card-text"
+                        >
+                          <small class="text-muted"
+                            >Entire apartment&shy; •&shy; 1 bedroom •&shy; 1
+                            living room •&shy; 1 bathroom</small
+                          >
+                        </p>
+
+                        <p class="card-text"></p>
+                        <h6 style="margin-bottom: 0px; color: #00ac23">
+                          FREE cancellation • No prepayment needed
+                        </h6>
+                        <p></p>
+                        <p
+                          style="margin-bottom: 0px; line-height: 13px"
+                          class="card-text"
+                        >
+                          <small class="" style="color: #00ac23"
+                            >You can cancel later, so lock in this great price
+                            today!</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="right-three ml-auto">
+                      <div class="row">
+                        <div class="col-md-9">
+                          <h6 class="text-right">
+                            Very good<br /><small>923 reviews</small>
+                          </h6>
+                        </div>
+
+                        <div class="col-md-3">
+                          <div
+                            style="
+                              width: 37px;
+                              height: 37px;
+                              padding: 5px;
+                              border-top-left-radius: 9px;
+                              border-top-right-radius: 9px;
+                              border-bottom-right-radius: 9px;
+                              background-color: #003580;
+                              float: right;
+                            "
+                          >
+                            <span
+                              style="
+                                color: #fff;
+                                font-size: 16px;
+                                padding: 1px;
+                                font-weight: 600;
+                              "
+                              >8.4</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p
+                          class="text-right"
+                          style="color: blue; padding: 7px; padding-bottom: 0px"
+                        >
+                          Comfort 8.4
+                        </p>
+                      </div>
+
+                      <div class="row ml-auto">
+                        <div class="col-md-12 justify-content-end">
+                          <div
+                            style="
+                              float: right;
+                              padding-left: 84px;
+                              text-align: right !important;
+                            "
+                          >
+                            <p class=""><small>1week, 2 adults</small></p>
+                            <h5 class="">BDT 898</h5>
+                            <small>Includes taxes and fees</small>
+                            <a
+                              href="details_page.html"
+                              class="btn btn-primary btn-sm mt-2"
+                              >See Availability</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div
+                  style="
+                    border: 1px solid rgba(0, 0, 0, 0.15);
+                    padding: 14px;
+                    border-radius: 3px;
+                    width: 100%;
+                    height: 100% !important;
+                  "
+                  class="hover-effects"
+                >
+                  <div class="custom-deatils">
+                    <div class="left-one">
+                      <img
+                        src="photo/gallery_image7.jpeg"
+                        style="width: 100%; height: auto"
+                        class="img-thumbnail"
+                      />
+                    </div>
+                    <div class="middle-two">
+                      <div class="card-body p-0">
+                        <h5 style="margin-bottom: 0px" class="card-title">
+                          Maritime Suites
+                          <span style="color: gold"
+                            ><i class="fas fa-star fa-xs" aria-hidden="true"></i
+                            ><i
+                              class="fas fa-star fa-xs fa-xs"
+                              aria-hidden="true"
+                            ></i
+                            ><i class="fas fa-star fa-xs" aria-hidden="true"></i
+                            ><i class="fas fa-star fa-xs" aria-hidden="true"></i
+                          ></span>
+                        </h5>
+                        <p class="card-text">George Town | Show on Map</p>
+
+                        <button type="button" class="btn btn-success btn-sm">
+                          Limited-time Deal
+                        </button>
+
+                        <p style="margin-bottom: 0px" class="card-text">
+                          One-Bedroom Apartment
+                        </p>
+                        <p
+                          style="margin-bottom: 0px; line-height: 15px"
+                          class="card-text"
+                        >
+                          <small class="text-muted"
+                            >Entire apartment&shy; •&shy; 1 bedroom •&shy; 1
+                            living room •&shy; 1 bathroom</small
+                          >
+                        </p>
+
+                        <p class="card-text"></p>
+                        <h6 style="margin-bottom: 0px; color: #00ac23">
+                          FREE cancellation • No prepayment needed
+                        </h6>
+                        <p></p>
+                        <p
+                          style="margin-bottom: 0px; line-height: 13px"
+                          class="card-text"
+                        >
+                          <small class="" style="color: #00ac23"
+                            >You can cancel later, so lock in this great price
+                            today!</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="right-three ml-auto">
+                      <div class="row">
+                        <div class="col-md-9">
+                          <h6 class="text-right">
+                            Very good<br /><small>923 reviews</small>
+                          </h6>
+                        </div>
+
+                        <div class="col-md-3">
+                          <div
+                            style="
+                              width: 37px;
+                              height: 37px;
+                              padding: 5px;
+                              border-top-left-radius: 9px;
+                              border-top-right-radius: 9px;
+                              border-bottom-right-radius: 9px;
+                              background-color: #003580;
+                              float: right;
+                            "
+                          >
+                            <span
+                              style="
+                                color: #fff;
+                                font-size: 16px;
+                                padding: 1px;
+                                font-weight: 600;
+                              "
+                              >8.4</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p
+                          class="text-right"
+                          style="color: blue; padding: 7px; padding-bottom: 0px"
+                        >
+                          Comfort 8.4
+                        </p>
+                      </div>
+
+                      <div class="row ml-auto">
+                        <div class="col-md-12 justify-content-end">
+                          <div
+                            style="
+                              float: right;
+                              padding-left: 84px;
+                              text-align: right !important;
+                            "
+                          >
+                            <p class=""><small>1week, 2 adults</small></p>
+                            <h5 class="">BDT 898</h5>
+                            <small>Includes taxes and fees</small>
+                            <a
+                              href="details_page.html"
+                              class="btn btn-primary btn-sm mt-2"
+                              >See Availability</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div
+                  style="
+                    border: 1px solid rgba(0, 0, 0, 0.15);
+                    padding: 14px;
+                    border-radius: 3px;
+                    width: 100%;
+                    height: 100% !important;
+                  "
+                  class="hover-effects"
+                >
+                  <div class="custom-deatils">
+                    <div class="left-one">
+                      <img
+                        src="photo/gallery_image7.jpeg"
+                        style="width: 100%; height: auto"
+                        class="img-thumbnail"
+                      />
+                    </div>
+                    <div class="middle-two">
+                      <div class="card-body p-0">
+                        <h5 style="margin-bottom: 0px" class="card-title">
+                          Maritime Suites
+                          <span style="color: gold"
+                            ><i class="fas fa-star fa-xs" aria-hidden="true"></i
+                            ><i
+                              class="fas fa-star fa-xs fa-xs"
+                              aria-hidden="true"
+                            ></i
+                            ><i class="fas fa-star fa-xs" aria-hidden="true"></i
+                            ><i class="fas fa-star fa-xs" aria-hidden="true"></i
+                          ></span>
+                        </h5>
+                        <p class="card-text">George Town | Show on Map</p>
+
+                        <button type="button" class="btn btn-success btn-sm">
+                          Limited-time Deal
+                        </button>
+
+                        <p style="margin-bottom: 0px" class="card-text">
+                          One-Bedroom Apartment
+                        </p>
+                        <p
+                          style="margin-bottom: 0px; line-height: 15px"
+                          class="card-text"
+                        >
+                          <small class="text-muted"
+                            >Entire apartment&shy; •&shy; 1 bedroom •&shy; 1
+                            living room •&shy; 1 bathroom</small
+                          >
+                        </p>
+
+                        <p class="card-text"></p>
+                        <h6 style="margin-bottom: 0px; color: #00ac23">
+                          FREE cancellation • No prepayment needed
+                        </h6>
+                        <p></p>
+                        <p
+                          style="margin-bottom: 0px; line-height: 13px"
+                          class="card-text"
+                        >
+                          <small class="" style="color: #00ac23"
+                            >You can cancel later, so lock in this great price
+                            today!</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="right-three ml-auto">
+                      <div class="row">
+                        <div class="col-md-9">
+                          <h6 class="text-right">
+                            Very good<br /><small>923 reviews</small>
+                          </h6>
+                        </div>
+
+                        <div class="col-md-3">
+                          <div
+                            style="
+                              width: 37px;
+                              height: 37px;
+                              padding: 5px;
+                              border-top-left-radius: 9px;
+                              border-top-right-radius: 9px;
+                              border-bottom-right-radius: 9px;
+                              background-color: #003580;
+                              float: right;
+                            "
+                          >
+                            <span
+                              style="
+                                color: #fff;
+                                font-size: 16px;
+                                padding: 1px;
+                                font-weight: 600;
+                              "
+                              >8.4</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p
+                          class="text-right"
+                          style="color: blue; padding: 7px; padding-bottom: 0px"
+                        >
+                          Comfort 8.4
+                        </p>
+                      </div>
+
+                      <div class="row ml-auto">
+                        <div class="col-md-12 justify-content-end">
+                          <div
+                            style="
+                              float: right;
+                              padding-left: 84px;
+                              text-align: right !important;
+                            "
+                          >
+                            <p class=""><small>1week, 2 adults</small></p>
+                            <h5 class="">BDT 898</h5>
+                            <small>Includes taxes and fees</small>
+                            <a
+                              href="details_page.html"
+                              class="btn btn-primary btn-sm mt-2"
+                              >See Availability</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END | Right Side DIV -->
+        </div>
+      </section>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

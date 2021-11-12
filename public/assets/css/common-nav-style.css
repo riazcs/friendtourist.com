@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap");
+/* *,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    color: #262626;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 1.5em;
+    margin: 0;
+  } */
+.nav-extend a {
+    color:  #1c3c6b;
+    text-decoration: none;
+}
+
+.nav-extend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav-container {
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+nav {
+    
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.2);
+}
+
+.sign-in-extend a {
+  padding: 14px 40px;
+  background-color: #fccd03;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.sign-in-extend a:hover {
+    background-color: #e0b700;
+}
+
+.nav-menu-extend {
+    display: flex;
+    font: 16px;
+    margin-left: -56px;
+    color: #1c3c6b;
+    
+}
+
+.nav-menu-item {
+    padding: 10px 34px;
+}
+
+
+
+.nav-menu-item a {
+    color: #1c3c6b;
+}
+
+.nav-menu-item i{
+    margin-right: 10px;
+  }
+
+.nav-menu-item span {
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.nav-menu-item a:hover {
+  color: #1f56a8;
+}
+@media (min-width: 1200px) {
+    .nav-container {
+      max-width: 1070px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .nav-menu-extend {
+        display: none;
+    }
+  }
+
+@media (max-width: 440px) {
+    .sign-in-extend a {
+        padding: 10px 12px;
+        background-color: #fccd03;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        display: inline;
+        display: inline-block;
+        text-decoration: none;
+      }
+}
